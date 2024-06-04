@@ -13,7 +13,6 @@ namespace MauiCollectionViewGallery
 		private async void Button_Clicked(object sender, EventArgs e)
 		{
 			var page = new PoolPage();
-			await page.LoadLogs();
 
 			try {
 				await this.Navigation.PushAsync(page, true);

@@ -8,7 +8,7 @@ namespace MauiCollectionViewGallery
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new MainPage());
+			MainPage = new NavigationPage(new PoolPage());
 		}
 	}
 }

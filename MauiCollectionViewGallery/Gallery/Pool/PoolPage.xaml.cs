@@ -13,6 +13,8 @@ public partial class PoolPage : ContentPage
 		InitializeComponent();
 
 		cv.ItemTemplate = new LogTemplateSelector();
+
+		_ = LoadLogs();
 	}
 
 	public async Task LoadLogs()
